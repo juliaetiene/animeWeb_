@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#1e88e5, #ffffff);
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 700px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1d7acc;
+  font-size: 24px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  display: inline-block; 
+  width: 100%; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  background-color: #1d73be;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#feedback {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.link-cadastro {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.link-cadastro a {
+  color: #1d73be;
+  text-decoration: none;
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#1e88e5, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}  
+/*principal*/
+.container {
+    background-color: #ffffff;
+    width: 700px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+  
+/* título */
+.container h1 {
+    font-size: 20px;
+    margin: 0;
+}
+  
+/* email */
+.container p {
+    color: gray;
+    font-size: 14px;
+    margin: 5px 0 20px 0;
+}
+  
+/* animes */
+.anime-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+  
+/* cards */
+.anime-card {
+    width: 120px;
+    text-align: center;
+}
+  
+/* p para deixar os tamanhos iguais */
+.anime-card img {
+    width: 120px; 
+    height: 160px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+/* hover */
+.anime-card img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+  
+/* nome animes */
+.anime-card span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+  
+/* botao */
+.logout {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+  
+.logout:hover {
+    background-color: #c0392b;
+}

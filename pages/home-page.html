@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animes Favoritos</title>
+  <link rel="stylesheet" href="/styles/home-page.css">
+  <link rel="icon" type="image/jpg" href="/img/homepage.jpg">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Seja bem-vindo, x!</h1>
+    <p>Seu e-mail é: x@gmail.com</p>
+    <h2>Animes Favoritos:</h2>
+
+    <div class="anime-list"></div>
+    <button onclick="logout()" class="logout">Sair</a>
+  </div>
+
+  <script>
+    function logout() {
+      setTimeout(() => {
+        localStorage.removeItem('user');
+        window.location.href = "/pages/login.html";
+      }, 3000);
+    }
+  </script>
+
+  <script src="/js/home-page.js"></script>
+</body>
+</html>
